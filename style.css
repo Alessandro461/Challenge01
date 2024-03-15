@@ -1,0 +1,109 @@
+body {
+  /* Encriptador - 1 Desktop */
+
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  /* Light blue/light-blue-100 */
+  background: #f3f5fc;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+}
+
+.entrada {
+  /* Ingrese el texto aqui */
+  position: absolute;
+  width: 577px;
+  height: 48px;
+  left: 240px;
+  top: 168px;
+  background-color: #f3f5fc;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0a3871;
+  border: none;
+  outline: none;
+}
+
+.entrada::placeholder {
+  color: #0a3871;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.mensaje1 {
+  /* Rectangle 1 */
+
+  position: relative;
+  width: 400px;
+  height: 944px;
+  left: 1000px;
+  top: 40px;
+
+  /* White */
+  background: #ffffff;
+  /* shadow */
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+.persona {
+  /* Muñeco */
+
+  position: absolute;
+  width: 336px;
+  height: 304px;
+  left: 1032px;
+  top: 283px;
+}
+
+.labelMensaje {
+  /* Frame 5 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 336px;
+  height: 122px;
+  left: 1032px;
+  top: 619px;
+}
+
+.BotonEncriptar {
+  /* Frame 3 */
+  text-align: center;
+  background: #0a3871;
+  border-radius: 20px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 240px;
+  top: 885px;
+}
